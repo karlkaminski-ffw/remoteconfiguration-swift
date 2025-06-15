@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "RemoteConfiguration", targets: ["RemoteConfiguration"])
     ],
     dependencies: [
-        .package(url: "https://github.com/cellular/cellular-swift.git", from: "6.0.0"),
+        .package(url: "https://github.com/karlkaminski-ffw/cellular-swift.git", from: "1.0.0"),
         .package(url: "https://github.com/cellular/localstorage-swift.git", from: "6.0.1")
     ],
     targets: [
